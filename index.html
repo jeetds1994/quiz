@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" charset="utf-8"></script>
+    <script src="app.js"></script>
+    <script src="models/category.js"></script>
+    <script src="models/instrument.js"></script>
+    <script src="controllers/category_controller.js"></script>
+    <script src="controllers/instrument_controller.js"></script>
+    <script src="index.js"></script>
+
+  </head>
+  <body>
+
+    <form class="" action="index.html" method="post">
+      <p>Musical Instrument</p>
+      <label for="">Instrument Name</label>
+      <input id="instrument" type="text" name="instrument[name]" value="">
+      <label for="">Category Name</label>
+      <input id="category" type="text" name="category[name]" value="">
+      <button type="button" name="button" onclick="saveInstrument()">Create Musical Masterpiece</button>
+    </form>
+
+
+    <section>
+      <h1>Categories</h1>
+      <ul class="categories">
+
+      </ul>
+    </section>
+
+
+    <section>
+      <h1>Instruments</h1>
+      <ul class="instruments">
+
+      </ul>
+    </section>
+
+
+  </body>
+</html>
